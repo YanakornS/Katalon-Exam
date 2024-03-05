@@ -1,0 +1,101 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS-Web,Chrome 122.0.0.0,,,05-03-2024 12:28:23,05-03-2024 12:28:55,31.709s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google,Chrome 122.0.0.0,,,05-03-2024 12:28:23,05-03-2024 12:28:28,4.589s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:24,05-03-2024 12:28:25,1.212s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:25,05-03-2024 12:28:25,0.090s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:25,05-03-2024 12:28:26,0.654s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canonc"")",Chrome 122.0.0.0,,,05-03-2024 12:28:26,05-03-2024 12:28:26,0.569s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""2"")",Chrome 122.0.0.0,,,05-03-2024 12:28:26,05-03-2024 12:28:27,0.553s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:27,05-03-2024 12:28:27,0.347s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:27,05-03-2024 12:28:27,0.307s,PASSED
+"takeFullPageScreenshot(""IMG/Screen1.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:27,05-03-2024 12:28:28,0.342s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:28,05-03-2024 12:28:28,0.321s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google2,Chrome 122.0.0.0,,,05-03-2024 12:28:28,05-03-2024 12:28:31,3.390s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:28,05-03-2024 12:28:29,0.564s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:29,05-03-2024 12:28:29,0.065s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""Johnj"")",Chrome 122.0.0.0,,,05-03-2024 12:28:29,05-03-2024 12:28:29,0.608s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncanoncano"")",Chrome 122.0.0.0,,,05-03-2024 12:28:29,05-03-2024 12:28:30,0.562s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""149"")",Chrome 122.0.0.0,,,05-03-2024 12:28:30,05-03-2024 12:28:30,0.560s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:30,05-03-2024 12:28:31,0.298s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: Johnj"")",Chrome 122.0.0.0,,,05-03-2024 12:28:31,05-03-2024 12:28:31,0.291s,PASSED
+"takeFullPageScreenshot(""IMG/Screen2.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:31,05-03-2024 12:28:31,0.281s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:31,05-03-2024 12:28:31,0.104s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google3,Chrome 122.0.0.0,,,05-03-2024 12:28:31,05-03-2024 12:28:35,3.467s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:31,05-03-2024 12:28:32,0.639s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:32,05-03-2024 12:28:32,0.061s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:28:32,05-03-2024 12:28:33,0.571s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncanoncanon"")",Chrome 122.0.0.0,,,05-03-2024 12:28:33,05-03-2024 12:28:33,0.610s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""150"")",Chrome 122.0.0.0,,,05-03-2024 12:28:33,05-03-2024 12:28:34,0.552s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:34,05-03-2024 12:28:34,0.300s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:28:34,05-03-2024 12:28:34,0.301s,PASSED
+"takeFullPageScreenshot(""IMG/Screen3.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:34,05-03-2024 12:28:35,0.276s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:35,05-03-2024 12:28:35,0.101s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google4,Chrome 122.0.0.0,,,05-03-2024 12:28:35,05-03-2024 12:28:38,3.498s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:35,05-03-2024 12:28:36,0.677s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:36,05-03-2024 12:28:36,0.060s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""Johnjohnjohnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:28:36,05-03-2024 12:28:36,0.595s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:28:36,05-03-2024 12:28:37,0.572s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:28:37,05-03-2024 12:28:37,0.542s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:37,05-03-2024 12:28:38,0.333s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: Johnjohnjohnjo"")",Chrome 122.0.0.0,,,05-03-2024 12:28:38,05-03-2024 12:28:38,0.274s,PASSED
+"takeFullPageScreenshot(""IMG/Screen4.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:38,05-03-2024 12:28:38,0.288s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:38,05-03-2024 12:28:38,0.105s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google5,Chrome 122.0.0.0,,,05-03-2024 12:28:38,05-03-2024 12:28:42,3.309s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:38,05-03-2024 12:28:39,0.550s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:39,05-03-2024 12:28:39,0.058s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjohnjohnjoh"")",Chrome 122.0.0.0,,,05-03-2024 12:28:39,05-03-2024 12:28:40,0.610s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:28:40,05-03-2024 12:28:40,0.582s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:28:40,05-03-2024 12:28:41,0.536s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:41,05-03-2024 12:28:41,0.289s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjohnjohnjoh"")",Chrome 122.0.0.0,,,05-03-2024 12:28:41,05-03-2024 12:28:41,0.286s,PASSED
+"takeFullPageScreenshot(""IMG/Screen5.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:41,05-03-2024 12:28:42,0.273s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:42,05-03-2024 12:28:42,0.075s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google6,Chrome 122.0.0.0,,,05-03-2024 12:28:42,05-03-2024 12:28:45,3.401s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:42,05-03-2024 12:28:42,0.551s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:42,05-03-2024 12:28:42,0.059s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""John"")",Chrome 122.0.0.0,,,05-03-2024 12:28:42,05-03-2024 12:28:43,0.587s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:28:43,05-03-2024 12:28:44,0.598s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:28:44,05-03-2024 12:28:44,0.562s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:44,05-03-2024 12:28:44,0.309s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: John"")",Chrome 122.0.0.0,,,05-03-2024 12:28:44,05-03-2024 12:28:45,0.317s,PASSED
+"takeFullPageScreenshot(""IMG/Screen6.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:45,05-03-2024 12:28:45,0.257s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:45,05-03-2024 12:28:45,0.113s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google7,Chrome 122.0.0.0,,,05-03-2024 12:28:45,05-03-2024 12:28:48,3.267s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:45,05-03-2024 12:28:46,0.588s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:46,05-03-2024 12:28:46,0.058s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:46,05-03-2024 12:28:46,0.584s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""cano"")",Chrome 122.0.0.0,,,05-03-2024 12:28:46,05-03-2024 12:28:47,0.554s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""75"")",Chrome 122.0.0.0,,,05-03-2024 12:28:47,05-03-2024 12:28:47,0.541s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:47,05-03-2024 12:28:48,0.281s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:48,05-03-2024 12:28:48,0.265s,PASSED
+"takeFullPageScreenshot(""IMG/Screen7.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:48,05-03-2024 12:28:48,0.259s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:48,05-03-2024 12:28:48,0.080s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google8,Chrome 122.0.0.0,,,05-03-2024 12:28:48,05-03-2024 12:28:52,3.383s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:48,05-03-2024 12:28:49,0.562s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:49,05-03-2024 12:28:49,0.057s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:49,05-03-2024 12:28:50,0.609s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:28:50,05-03-2024 12:28:50,0.568s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""0"")",Chrome 122.0.0.0,,,05-03-2024 12:28:50,05-03-2024 12:28:51,0.597s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:51,05-03-2024 12:28:51,0.292s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:51,05-03-2024 12:28:51,0.287s,PASSED
+"takeFullPageScreenshot(""IMG/Screen8.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:51,05-03-2024 12:28:52,0.253s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:52,05-03-2024 12:28:52,0.109s,PASSED
+,,,,,,,
+Test Cases/Test-Web/Test_Google9,Chrome 122.0.0.0,,,05-03-2024 12:28:52,05-03-2024 12:28:55,3.261s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,05-03-2024 12:28:52,05-03-2024 12:28:52,0.543s,PASSED
+"navigateToUrl(""http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"")",Chrome 122.0.0.0,,,05-03-2024 12:28:52,05-03-2024 12:28:52,0.057s,PASSED
+"setText(findTestObject(""Page_CustomerDetail Form/input_First Name_firstName""), ""johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:52,05-03-2024 12:28:53,0.611s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName""), ""canoncan"")",Chrome 122.0.0.0,,,05-03-2024 12:28:53,05-03-2024 12:28:54,0.564s,PASSED
+"setText(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_Age_age""), ""151"")",Chrome 122.0.0.0,,,05-03-2024 12:28:54,05-03-2024 12:28:54,0.538s,PASSED
+"click(findTestObject(""KatalonTest/Page_CustomerDetail Form/input_submit""))",Chrome 122.0.0.0,,,05-03-2024 12:28:54,05-03-2024 12:28:54,0.281s,PASSED
+"verifyElementText(findTestObject(""KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name""), ""First Name: johnjohn"")",Chrome 122.0.0.0,,,05-03-2024 12:28:54,05-03-2024 12:28:55,0.280s,PASSED
+"takeFullPageScreenshot(""IMG/Screen9.png"")",Chrome 122.0.0.0,,,05-03-2024 12:28:55,05-03-2024 12:28:55,0.258s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,05-03-2024 12:28:55,05-03-2024 12:28:55,0.081s,PASSED

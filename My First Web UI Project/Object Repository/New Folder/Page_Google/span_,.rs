@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_,</name>
+   <tag></tag>
+   <elementGuidId>6ccff9ba-b78e-457c-ac99-1f779f633c63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ClJ9Yb > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='jZ2SBf']/div[2]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;มหาวิทยาลัยราชภัฏนครปฐม — มหาวิทยาลัยรัฐในตำบล วังตะกู, ประเทศไทย&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9ca981d0-8e52-4e76-a453-83e347c6d691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>มหาวิทยาลัยราชภัฏนครปฐม — มหาวิทยาลัยรัฐในตำบล วังตะกู, ประเทศไทย</value>
+      <webElementGuid>2d5796d8-2865-48e4-bc57-2a6b1c600e6e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;jZ2SBf&quot;)/div[@class=&quot;ClJ9Yb&quot;]/span[1]</value>
+      <webElementGuid>6dcd823c-4407-41d4-a223-dfac7325a897</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='jZ2SBf']/div[2]/span</value>
+      <webElementGuid>44fc69ae-5606-4877-81b2-29c39c30e406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NPRU'])[1]/following::span[1]</value>
+      <webElementGuid>df4fa640-3198-4246-bbd2-0217c6e75b04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เลือกสิ่งที่จะแสดงความคิดเห็น'])[1]/following::span[2]</value>
+      <webElementGuid>3f847dfd-2c3f-42a1-9a67-c9c37009e683</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ดูเพิ่ม'])[1]/preceding::span[2]</value>
+      <webElementGuid>73c61ec8-a3e2-45b8-b2a3-12268bb5cfed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ลบ'])[1]/preceding::span[4]</value>
+      <webElementGuid>4e807a14-f6a5-4695-9ff8-c11a9d1621f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='มหาวิทยาลัยราชภัฏนครปฐม — มหาวิทยาลัยรัฐในตำบล วังตะกู, ประเทศไทย']/parent::*</value>
+      <webElementGuid>d4a0f565-ebf2-49ae-ace4-962dd6e63406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+      <webElementGuid>93a7acc7-5a56-42d0-a55f-896e6abdb6a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'มหาวิทยาลัยราชภัฏนครปฐม — มหาวิทยาลัยรัฐในตำบล วังตะกู, ประเทศไทย' or . = 'มหาวิทยาลัยราชภัฏนครปฐม — มหาวิทยาลัยรัฐในตำบล วังตะกู, ประเทศไทย')]</value>
+      <webElementGuid>d7e7168b-f932-4568-a2db-c61ef4f86cab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

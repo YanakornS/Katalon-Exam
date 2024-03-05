@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC-Web" time="41.056" tests="9" failures="0" errors="0">
+   <testsuite name="TS-Web" tests="9" failures="0" errors="0" time="31.709" skipped="0" timestamp="05-03-2024T12:28:23" hostname="Administrator - 10.1.85.163" id="Test Suites/TS-Web">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen1.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen2.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen3.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen4.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen5.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen6.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen7.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen8.png, C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen9.png"/>
+         <property name="hostName" value="Administrator - 10.1.85.163"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.1.85.163"/>
+         <property name="sessionId" value="4df695a1ee65772f31462695e07aa2f6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test-Web/Test_Google" time="4.589" classname="Test Cases/Test-Web/Test_Google" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:23 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google: Test Cases/Test-Web/Test_Google
+
+05-03-2024T12:28:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:25 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:25 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:26 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canonc"): Text 'canonc' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:26 - [MESSAGE][PASSED] - Text 'canonc' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "2"): Text '2' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:27 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:27 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:27 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjohn"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:27 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:27 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen1.png"): Taking screenshot successfully
+
+05-03-2024T12:28:28 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen1.png]]
+
+05-03-2024T12:28:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google2" time="3.39" classname="Test Cases/Test-Web/Test_Google2" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:28 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google2: Test Cases/Test-Web/Test_Google2
+
+05-03-2024T12:28:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:29 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:29 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "Johnj"): Text 'Johnj' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:29 - [MESSAGE][PASSED] - Text 'Johnj' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:29 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncanoncano"): Text 'canoncanoncano' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:30 - [MESSAGE][PASSED] - Text 'canoncanoncano' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:30 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "149"): Text '149' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:30 - [MESSAGE][PASSED] - Text '149' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:30 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:31 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: Johnj"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen2.png"): Taking screenshot successfully
+
+05-03-2024T12:28:31 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen2.png]]
+
+05-03-2024T12:28:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google3" time="3.467" classname="Test Cases/Test-Web/Test_Google3" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:31 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google3: Test Cases/Test-Web/Test_Google3
+
+05-03-2024T12:28:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:32 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:32 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjo"): Text 'johnjo' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:33 - [MESSAGE][PASSED] - Text 'johnjo' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:33 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncanoncanon"): Text 'canoncanoncanon' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:33 - [MESSAGE][PASSED] - Text 'canoncanoncanon' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:33 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "150"): Text '150' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:34 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:34 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjo"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:34 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen3.png"): Taking screenshot successfully
+
+05-03-2024T12:28:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen3.png]]
+
+05-03-2024T12:28:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google4" time="3.498" classname="Test Cases/Test-Web/Test_Google4" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:35 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google4: Test Cases/Test-Web/Test_Google4
+
+05-03-2024T12:28:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:36 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:36 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "Johnjohnjohnjo"): Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:36 - [MESSAGE][PASSED] - Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:36 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:37 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:37 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:37 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:37 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: Johnjohnjohnjo"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen4.png"): Taking screenshot successfully
+
+05-03-2024T12:28:38 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen4.png]]
+
+05-03-2024T12:28:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google5" time="3.309" classname="Test Cases/Test-Web/Test_Google5" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:38 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google5: Test Cases/Test-Web/Test_Google5
+
+05-03-2024T12:28:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:39 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:39 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjohnjohnjoh"): Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:40 - [MESSAGE][PASSED] - Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:40 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:40 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:40 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:41 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:41 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjohnjohnjoh"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen5.png"): Taking screenshot successfully
+
+05-03-2024T12:28:42 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen5.png]]
+
+05-03-2024T12:28:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google6" time="3.401" classname="Test Cases/Test-Web/Test_Google6" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:42 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google6: Test Cases/Test-Web/Test_Google6
+
+05-03-2024T12:28:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:42 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:42 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:42 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "John"): Text 'John' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:43 - [MESSAGE][PASSED] - Text 'John' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:43 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:44 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:44 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:44 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:44 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:44 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: John"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen6.png"): Taking screenshot successfully
+
+05-03-2024T12:28:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen6.png]]
+
+05-03-2024T12:28:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google7" time="3.267" classname="Test Cases/Test-Web/Test_Google7" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:45 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google7: Test Cases/Test-Web/Test_Google7
+
+05-03-2024T12:28:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:46 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:46 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:46 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:46 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "cano"): Text 'cano' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:47 - [MESSAGE][PASSED] - Text 'cano' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:47 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:47 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:47 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjohn"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen7.png"): Taking screenshot successfully
+
+05-03-2024T12:28:48 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:48 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen7.png]]
+
+05-03-2024T12:28:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google8" time="3.383" classname="Test Cases/Test-Web/Test_Google8" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:48 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google8: Test Cases/Test-Web/Test_Google8
+
+05-03-2024T12:28:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:49 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:49 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:50 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:50 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:50 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "0"): Text '0' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:51 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:51 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjohn"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:51 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen8.png"): Taking screenshot successfully
+
+05-03-2024T12:28:52 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:52 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen8.png]]
+
+05-03-2024T12:28:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test-Web/Test_Google9" time="3.261" classname="Test Cases/Test-Web/Test_Google9" status="PASSED">
+         <system-out><![CDATA[05-03-2024T12:28:52 - [TEST_CASE][PASSED] - Test Cases/Test-Web/Test_Google9: Test Cases/Test-Web/Test_Google9
+
+05-03-2024T12:28:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T12:28:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T12:28:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T12:28:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T12:28:52 - [TEST_STEP][PASSED] - navigateToUrl("http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html"): Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:52 - [MESSAGE][PASSED] - Navigate to 'http://localhost/Python-and-Capture-Screen-Short/Customer/Customer.html' successfully
+
+05-03-2024T12:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_CustomerDetail Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:53 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_CustomerDetail Form/input_First Name_firstName'
+
+05-03-2024T12:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:54 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Last Name_lastName'
+
+05-03-2024T12:28:54 - [TEST_STEP][PASSED] - setText(findTestObject("KatalonTest/Page_CustomerDetail Form/input_Age_age"), "151"): Text '151' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:54 - [MESSAGE][PASSED] - Text '151' is set on object 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_Age_age'
+
+05-03-2024T12:28:54 - [TEST_STEP][PASSED] - click(findTestObject("KatalonTest/Page_CustomerDetail Form/input_submit")): Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:54 - [MESSAGE][PASSED] - Object: 'Object Repository/KatalonTest/Page_CustomerDetail Form/input_submit' is clicked on
+
+05-03-2024T12:28:54 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name"), "First Name: johnjohn"): Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/KatalonTest/Page_CustomerDetail Form/Page_CustomerDetail Form/p_First Name' are matched.
+
+05-03-2024T12:28:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot("IMG/Screen9.png"): Taking screenshot successfully
+
+05-03-2024T12:28:55 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T12:28:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\My First Web UI Project\\Reports\\25670305_122815\\TS-Web\\25670305_122816\\IMG/Screen9.png]]
+
+05-03-2024T12:28:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T12:28:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T12:28:23 - [TEST_SUITE][PASSED] - TS-Web: Test Cases/Test-Web/Test_Google9]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
